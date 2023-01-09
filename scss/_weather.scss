@@ -1,0 +1,83 @@
+.weather {
+  width: 23%;
+  margin-top: 70px;
+  color: #fff;
+  &__main {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    background-color: $text;
+    border-radius: 5px 5px 0 0;
+  }
+  &__temp{
+    padding: 30px 0 20px 40px;
+    &-value {
+      font-size: 3.8em;
+      font-weight: 700;
+    }
+  }
+  &__feels-like {
+    font-size: 1.2em;
+  }
+  &__clouds {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 30px 10px 10px 30px;
+  }
+  &__cloud {
+    &-icon {
+      width: 20%;
+    }
+  }
+  &__description {
+    font-size: 1.3em;
+    font-weight: 600;
+  }
+  &__image {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-grow: 1;
+    padding: 20px 0 0 0;
+    // width: 100%;
+    // height: 100%;
+  }
+  &__picture {
+    width: 100px;
+    height: 100px;
+  }
+  &__forecast {
+    background-color: $forecast;
+    border-radius: 0 0 5px 5px;
+    padding: 80px 0 10px 0;
+    &-values {
+      display: flex;
+      flex-direction: column;
+      flex-grow: 1;
+      padding: 0 0 0 30px;
+    }
+  }
+  &__block {
+    display: flex;
+    align-items: center;
+    margin: 0 0 30px 0;
+  }
+  &__day {
+    display: flex;
+    align-items: center;
+    width: 25%;
+    padding: 0 0px 0 32px;
+    &-week {
+      font-size: 1.5em;
+    }
+  }
+  &__icon {
+    width: 70px;
+    height: 70px;
+  }
+  &__forecast-descr {
+    width: 30%;
+    padding: 0 0 0 10px;
+  }
+}

@@ -1,0 +1,22 @@
+%tpl-btn-clear {
+  position: absolute;
+  top: calc(50% - 3px);
+  right: 25px;
+  width: 20px;
+  height: 20px;
+  font-size: 25px;
+  color: $search-btn;
+  cursor: pointer;
+}
+
+
+%tpl-animation-show {
+  transition: all 0.5s cubic-bezier( 0.68, -0.55, 0.265, 1.55 );
+  visibility: visible;
+}
+
+
+%tpl-animation-hide {
+  transition: all 0.5s cubic-bezier( 0.68, -0.55, 0.265, 1.55 );
+  visibility: hidden;
+}
